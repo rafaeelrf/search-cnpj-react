@@ -1,0 +1,20 @@
+.quotation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+  padding-top: 50vh;
+  background-image: linear-gradient(#8d84ee, #a966f5);
+}
+
+.title {
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.subtitle {
+  color: white;
+  font-size: inherit;
+  margin-bottom: 70px;
+}
