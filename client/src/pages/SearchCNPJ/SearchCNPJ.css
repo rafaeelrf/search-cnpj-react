@@ -1,0 +1,84 @@
+.body-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f6f8;
+    align-items: center;
+    padding-top: 2vh;
+    height: 90vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px 0 24px;
+    background-image: linear-gradient(to right, #a966f5, #8d84ee);
+    height: 75px;
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+}
+
+.headerTitle {
+    color: white;
+    font-size: medium;
+}
+
+.headerSubtitle {
+    color: white;
+    font-size: small;
+}
+
+.container-cnpj {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.label-cnpj {
+    font-size: small;
+    color: #99a2a9;
+    padding: 10px 0 0 24px;
+}
+
+.input-cnpj {
+    border-width: 0px;
+    border-color: #fff;
+}
+
+.search-cnpj-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 25px;
+    justify-content: flex-start;
+    margin-bottom: 24px;
+}
+
+.search-cnpj-title {
+    color: #495060;
+    margin-left: 24px;
+}
+
+.submit-cnpj {
+    margin-top: 100px;
+}
+
+.error-message-container {
+    font-size: small;
+    color: red;
+    margin: 0 5px 5px;
+    text-align: right;
+}
+
+.input-cnpj-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px 24px 24px;
+}

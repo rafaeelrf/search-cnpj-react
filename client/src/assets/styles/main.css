@@ -1,0 +1,39 @@
+.button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-width: 0px;
+    border-color: #fff; 
+    width: 320px;
+    background-color: white;
+    padding: 16px 24px 16px 24px;
+    cursor: pointer;
+}
+
+.btn-search:hover {
+    background-color: #42e5e4!important;
+}
+
+.button-label {
+    font-weight: bold;
+    font-size: small;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.user-image {
+    border-radius: 50%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
